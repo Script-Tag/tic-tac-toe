@@ -1,8 +1,10 @@
-export default function Square(props) {
-    return(
+const Square = (props) => {
+    return ( 
         <button className="square" 
             onClick={props.onClick} >
             {props.value}
-        </button>
+        </button> 
     );
 }
+
+export default Square;
